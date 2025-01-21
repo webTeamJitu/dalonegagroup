@@ -1,0 +1,30 @@
+on:
+  repository_dispatch:
+    types: bpo-dev-deployment
+    branches:
+      - main
+
+name: 🚀 Deploy website on push
+
+jobs:
+    web-deploy:
+      name: 🎉 Deploy
+      runs-on: ubuntu-latest
+      steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2.3.2
+
+      - name: Sync Files
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.DEV_SERVER }}
+      - name: Report Progress
+        run: |
+          echo "Progress: 10%"
+          # Run your deployment steps here
+          echo "Progress: 50%"
+          # Continue with deployment
+          echo "Progress: 100%"
