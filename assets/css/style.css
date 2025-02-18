@@ -33,22 +33,18 @@
 /*------------------------------------------------------------------*/
 /*	01) GLAX BASE
 /*------------------------------------------------------------------*/
-.wpcf7-textarea{
-	background-color: white !important;
-}
+
 html {
 	overflow-x: hidden;
 	padding: 0px;
 	margin: 0px
 }
-body{
-	font-family: "Open Sans";
-	font-size: 16px;
-	line-height: 2.0;
-	font-weight: 400;
-	word-wrap: break-word;
-	letter-spacing: 0.5px;
+
+img{
+	vertical-align:middle;
+	max-width:100%;
 }
+
 svg{
 	fill: currentcolor;
 	width: 15px;
@@ -373,7 +369,7 @@ img.svg{
 .glax_tm_topbar_wrap .right_part_wrap{float: right;}
 .glax_tm_topbar_wrap .right_part_wrap ul{
 	margin: 0px;
-	list-style-type: none;
+	list-style: none;
 }
 .glax_tm_topbar_wrap .right_part_wrap ul li{
 	margin: 0px 5px 0px 0px;
@@ -512,6 +508,7 @@ img.svg{
 	background-color: rgba(0,0,0,.6);
 	z-index: 4;
 }
+/* 
 .my_swiper_pagination{
 	width: auto;
 	margin-left: 163px;
@@ -559,7 +556,7 @@ img.svg{
 .prev_next .tm_next_button:after{
 	transform: rotate(180deg);
 	left: 22px;
-}
+} */
 .glax_tm_swiper_content{
 	position: absolute;
 	top: 63% !important;
@@ -592,7 +589,7 @@ img.svg{
 }
 .glax_tm_header_wrap .header_inner_wrap .menu_wrap > ul{
 	margin: 0px;
-	list-style-type: none;
+	list-style: none !important;
 }
 .glax_tm_header_wrap .header_inner_wrap .menu_wrap > ul > li{
 	margin: 0px 40px 0px 0px;
@@ -1747,7 +1744,6 @@ img.svg{
 
 /*------------------------------------------------------------------*/ 
 /*	07) GLAX HOME SERVICE
-/*------------------------------------------------------------------*/
 #emptycard{
 	display: block;
 	width: 17%;
@@ -1767,7 +1763,6 @@ img.svg{
 }
 .glax_tm_home_service_list ul li{
 	margin: 0px 0px 40px 0px;
-	/* float: left; */
 	width: 33%;
 	padding-left: 55px;	
 }
@@ -1898,10 +1893,10 @@ img.svg{
 	right: -27px;
 	transition-duration: .3s;
 }
+/*------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------*/ 
 /*	08) GLAX WHY CHOOSE US
-/*------------------------------------------------------------------*/
 
 .glax_tm_rating_wrap{
 	width: 100%;
@@ -2121,10 +2116,10 @@ img.svg{
     background-position: center;
 	background-image: url(../img/logo2.webp);
 }
+/*------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------*/ 
 /*	09) GLAX PRINCIPLES
-/*------------------------------------------------------------------*/
 
 .glax_tm_principles_wrapper_all{
 	width: 100%;
@@ -2148,9 +2143,9 @@ img.svg{
 	flex-direction: row;
 }
 .glax_tm_twice_box_wrap .inner_box .leftbox{
-	/* width: 320px;
+	width: 320px;
 	min-width: 320px;
-	margin-right: 10%; */
+	margin-right: 10%; 
 }
 .glax_tm_twice_box_wrap .inner_box .leftbox .title_holder h3{
 	font-size: 36px;
@@ -2305,10 +2300,10 @@ img.svg{
 	right: -20px;
 	transform: skewX(45deg);
 }
+/*------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------*/ 
 /*	10) GLAX RESPONSIBILITY
-/*------------------------------------------------------------------*/
 
 .glax_tm_universal_parallax_wrap{
 	width: 100%;
@@ -2454,10 +2449,10 @@ img.svg{
 	top: 50%;
 	left: 0px;
 }
+/*------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------*/ 
 /*	11) GLAX HOME PROJECTS
-/*------------------------------------------------------------------*/
 
 .glax_tm_home_project_wrapper_all{
 	width: 100%;
@@ -2636,10 +2631,10 @@ img.svg{
 	display: table;
 	content: '';
 }	
+/*------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------*/ 
 /*	12) GLAX HOME BLOG
-/*------------------------------------------------------------------*/
 
 .glax_tm_home_blog_wrap,
 .glax_tm_home_blog_wrap .inner_wrap,
@@ -2852,10 +2847,10 @@ img.svg{
 	        transition: all .3s ease;
 }
 .glax_tm_home_blog_wrap .blog_list ul li .title_holder h3 a:hover{color: #45a2df;}
+/*------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------*/ 
 /*	13) GLAX FOOTER
-/*------------------------------------------------------------------*/
 
 .glax_tm_footer{
 	width: 100%;
@@ -2863,8 +2858,6 @@ img.svg{
 	clear: both;
 	float: left;
 }
-
-/* .glax_tm_universal_parallax_wrap .overlay_image.footer{background-image: url(..//img/slider/5.jpg);} */
 .glax_tm_universal_parallax_wrap .overlay_color.footer{background-color: rgba(8,18,37,0.9);}
 .glax_tm_universal_parallax_wrap .main_content.footer{padding: 38px 0px 0px 0px;}
 .glax_tm_subscribe_wrap,
@@ -3133,6 +3126,7 @@ img.svg{
 	color: #999;
 	font-weight: 700;
 }
+/*------------------------------------------------------------------*/
 
 /*---------------------------------------------------*/
 /*	14) GLAX TO TOP
@@ -3196,7 +3190,6 @@ img.svg{
 
 /*------------------------------------------------------------------*/ 
 /*	15) GLAX PROJECTS
-/*------------------------------------------------------------------*/
 
 .glax_tm_main_title_holder{
 	width: 100%;
@@ -3260,7 +3253,6 @@ img.svg{
 	float: left;
 }
 .builify_tm_breadcrumbs ul li a{
-	/* font-size: 16px; */
     color: #666;
     text-decoration: none;
     letter-spacing: 0px;
@@ -3390,6 +3382,8 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
+
+/*------------------------------------------------------------------*/
 
 /* PORTFOLIO LIST */
 
@@ -3659,7 +3653,6 @@ img.svg{
 
 /*------------------------------------------------------------------*/ 
 /*	16) GLAX PROJECT SINGLE
-/*------------------------------------------------------------------*/
 
 .glax_tm_justified_wrap{
 	width: 100%;
@@ -3681,10 +3674,10 @@ img.svg{
 	visibility: hidden;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 .glax_tm_justified_wrap .shape{
 	position: absolute;
@@ -3698,10 +3691,10 @@ img.svg{
 	visibility: hidden;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 .glax_tm_justified_wrap .shape span{
 	position: relative;
@@ -3794,10 +3787,10 @@ img.svg{
 }
 .glax_tm_share_wrap ul li a i{
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 .glax_tm_share_wrap ul li:last-child{margin-right: 0px;}
 .glax_tm_share_wrap ul li a{
@@ -3805,10 +3798,10 @@ img.svg{
 	color: #555;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 .glax_tm_share_wrap ul li a:hover{color: #45a2df;}
 .glax_tm_justified_content .glax_tm_project_video{float: left;}
@@ -3864,10 +3857,10 @@ img.svg{
 	right: 0px;
 	z-index: -1;
 }
+/*------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------*/ 
 /*	17) GLAX SERVICES
-/*------------------------------------------------------------------*/
 
 .glax_tm_twicebox_wrap{
 	width: 100%;
@@ -4342,10 +4335,10 @@ img.svg{
 .glax_tm_brochures_wrap ul li:hover .inner .icon .svg{color: #fff;}
 .glax_tm_brochures_wrap ul li:hover .inner span.text{color: #fff;}
 .glax_tm_brochures_wrap ul li:hover .inner span.arrow:before{border-left-color: #fff;}
+/*------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------*/ 
 /*	18) GLAX SERVICE SINGLE
-/*------------------------------------------------------------------*/
 
 .glax_tm_service_single_wrap{
 	width: 100%;
@@ -4628,12 +4621,12 @@ img.svg{
 .glax_tm_other_services_wrap .services_list_wrap ul li .title_holder h3 a{
 	text-decoration: none;
 	color: #181a2f;
-
+	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 .glax_tm_other_services_wrap .services_list_wrap ul li .title_holder h3 a:hover{color: #ff8f03;}
 .glax_tm_other_services_wrap .services_list_wrap ul li .description p{
@@ -4645,7 +4638,7 @@ img.svg{
 	bottom: 0px;
 	left: 0px;
 	max-width: calc(100% - 40px);
-
+	
 }
 .glax_tm_other_services_wrap .services_list_wrap ul li .read_more_in{
 	height: 40px;
@@ -4654,10 +4647,10 @@ img.svg{
 	position: relative;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 .glax_tm_other_services_wrap .services_list_wrap ul li .read_more_in a:before{
 	position: absolute;
@@ -4670,10 +4663,10 @@ img.svg{
 	margin-left: -12px;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 .glax_tm_other_services_wrap .services_list_wrap ul li .read_more_in a{
 	text-decoration: none;
@@ -4691,9 +4684,9 @@ img.svg{
 .glax_tm_other_services_wrap .services_list_wrap ul li .read_more_in:hover{background-color: #23387E;}
 .glax_tm_other_services_wrap .services_list_wrap ul li .read_more_in:hover a:before{background-color: #23387E;}
 
+/*------------------------------------------------------------------*/
 /*------------------------------------------------------------------*/ 
 /*	19) GLAX BLOG
-/*------------------------------------------------------------------*/
 
 .glax_tm_blog_wrap{
 	width: 100%;
@@ -4793,10 +4786,10 @@ img.svg{
 	color: #181a2f;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 .glax_tm_blog_wrap .definitions_wrap .title_holder h3 a:hover{color: #45a2df;}
 .glax_tm_blog_wrap .definitions_wrap .info_wrap{
@@ -4833,10 +4826,10 @@ img.svg{
 	color: #666;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 .glax_tm_blog_wrap .definitions_wrap .short_info a:hover{color: #45a2df;}
 .glax_tm_blog_wrap .definitions_wrap .text{margin-bottom: 17px;}
@@ -4860,16 +4853,16 @@ img.svg{
 	display: inline-block;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 .glax_tm_blog_wrap .definitions_wrap .continue a:hover{background-color: #23387E;}
 
+/*------------------------------------------------------------------*/
 /*------------------------------------------------------------------*/ 
 /*	20) GLAX BLOG SINGLE
-/*------------------------------------------------------------------*/
 
 .glax_tm_blog_single_wrap{
 	width: 100%;
@@ -5011,10 +5004,10 @@ img.svg{
 	color:#0064FF;
 	margin-bottom: 7px;
 }
+/*------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------*/ 
 /*	21) GLAX ABOUT
-/*------------------------------------------------------------------*/
 
 .glax_tm_about_wrap{
 	width: 100%;
@@ -5234,10 +5227,10 @@ img.svg{
 	visibility: hidden;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
 .glax_tm_about_counter_wrap li:hover .overlay{
 	opacity: 1;
@@ -5337,6 +5330,7 @@ img.svg{
     line-height: 1.7;
     color: #666;
 }
+/*------------------------------------------------------------------*/
 /*------------------------------------------------------------------*/ 
 /*	22) GLAX CONTACT
 /*------------------------------------------------------------------*/
@@ -5792,16 +5786,6 @@ iframe{
 	}
 }
 
-@media (min-width: 375px){
-	.wpcf7-form {
-		padding: 10px;
-		display: grid;
-		gap: 22px;
-		
-		}
-}
-
-
 /* new styles */
 
 .themesflat-row .span_1_of_6 {
@@ -5949,37 +5933,7 @@ iframe{
   }
 
 
-  
-  .wpcf7-form {
-display: grid;
-gap: 22px;
 
-}
-.wpc7-form:hover{
-backround-color:#23387E !important;
-}
-  
-.wpcf7-submit{
-	text-decoration: none;
-    display: inline-block;
-    padding: 14px 25px;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.5px;
-    color: #fff;
-	background-color:#45a2df !important;
-    text-transform: uppercase;
-    border-radius: 2px;
-    font-weight: 500;
-    font-family: 'Open Sans';
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-	width: 30%;
-	
-}
 @media (min-width: 800px){
 	.office_list{
 	display: flex;
@@ -6000,12 +5954,6 @@ backround-color:#23387E !important;
 		position: relative;
 	}
 }
-
-.wpcf7-form-control-wrap input{
-width:100%;
-
-}
-
 
 .servicev:before{
 	position: absolute;
