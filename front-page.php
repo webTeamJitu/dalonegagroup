@@ -155,13 +155,9 @@ get_header();
 
                     <div class="ico-wrap2 icon-me">
 
-                        <!--<i class="flaticon-businessmen-2 ico-unicolor2"></i>-->
-
                         <img src="<?php bloginfo('template_directory'); ?>/images/editba.png">
 
                     </div>
-
-                    <span class="service-nb">01</span>
 
                     <h3 style="color: #007adf !important;">Business Size</h3>
 
@@ -185,13 +181,9 @@ get_header();
 
                     <div class="ico-wrap2 icon-me">
 
-                        <!--<i class="flaticon-businessman-11 ico-unicolor2"></i>-->
-
                         <img src="<?php bloginfo('template_directory'); ?>/images/transcitions.png">
 
                     </div>
-
-                    <span class="service-nb">02</span>
 
                     <h3 style="color: #007adf !important;">Transaction Types</h3>
 
@@ -223,8 +215,6 @@ get_header();
 
                     </div>
 
-                    <span class="service-nb">03</span>
-
                     <h3 style="color: #007adf !important;">Geography</h3>
 
                     <p>
@@ -246,8 +236,6 @@ get_header();
                 <div class="service-wrapper2">
 
                     <div class="ico-wrap2 icon-me">
-
-                        <!--<i class="flaticon-networking-2 ico-unicolor2"></i>-->
 
                         <img src="<?php bloginfo('template_directory'); ?>/images/vertical.png">
 
