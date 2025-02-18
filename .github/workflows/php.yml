@@ -1,6 +1,6 @@
 on:
   repository_dispatch:
-    types: bpo-dev-deployment
+    types: dalonega-dev-deployment
     branches:
       - main
 
