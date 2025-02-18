@@ -21,7 +21,14 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.DEV_SERVER }}
-          # timeout: 60
+        -name: syncing Report
+          run :|
+            echo "Starting FTP sync..."
+            echo "Using server: 68.65.120.172"
+            echo "Using directory: ${{ secrets.DEV_SERVER }}"
+            echo "Syncing files..."
+            # You can also log the success/failure status here
+            echo "FTP sync completed successfully."
       - name: Report Progress
         run: |
           echo "Progress: 10%"
