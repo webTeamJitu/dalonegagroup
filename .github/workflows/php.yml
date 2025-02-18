@@ -17,10 +17,11 @@ jobs:
       - name: Sync Files
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: 68.65.120.172
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.DEV_SERVER }}
+          timeout: 60
       - name: Report Progress
         run: |
           echo "Progress: 10%"
