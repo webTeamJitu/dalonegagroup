@@ -11,24 +11,26 @@ jobs:
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v2.3.2
-        
-      - name: Syncing Report
-        run: |
-          echo "Starting FTP sync..."
-          echo "Using server: 68.65.120.172"
-          echo "Using directory: ${{ secrets.DEV_SERVER }}"
-          echo "Syncing files..."
-          # You can also log the success/failure status here
-          echo "FTP sync completed successfully."
-          
+      
       - name: Sync Files
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: 68.65.120.172
-          username: ${{ secrets.FTP_USERNAME }}
+          server: ftp.jitudevops.com
+          username: dahlonegakey@dahlonegagroup.jitudevops.com
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.DEV_SERVER }}
-          
+          port: 21
+          protocol: ftps  # Using explicit FTPS as mentioned
+          timeout: 120000  # Increasing timeout to 2 minutes
+
+      - name: Syncing Report
+        run: |
+          echo "Starting FTP sync..."
+          echo "Using server: ftp.jitudevops.com"
+          echo "Using directory: ${{ secrets.DEV_SERVER }}"
+          echo "Syncing files..."
+          echo "FTP sync completed successfully."
+      
       - name: Report Progress
         run: |
           echo "Progress: 10%"
