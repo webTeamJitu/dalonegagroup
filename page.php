@@ -66,7 +66,7 @@ get_header();
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <img src="<?php bloginfo('template_directory');?>/images/DG-Logo_Bear-Only-300x300.png" class="navbar-brand brand scrool">
+                    <img src="<?php bloginfo('template_directory');?>/images/DG-Logo_Bear-Only-300x300-white.png" class="navbar-brand brand scrool">
                 </div>
                 <!-- end navbar-header -->
 
