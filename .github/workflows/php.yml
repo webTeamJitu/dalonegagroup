@@ -20,8 +20,8 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.DEV_SERVER }}
           port: 21
-          protocol: ftps  # Using explicit FTPS as mentioned
-          timeout: 120000  # Increasing timeout to 2 minutes
+          protocol: ftp  # Use regular FTP instead of FTPS
+          security: loose  # Add this to handle certificate issues
 
       - name: Syncing Report
         run: |
