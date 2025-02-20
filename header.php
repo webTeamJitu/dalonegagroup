@@ -33,12 +33,7 @@
 						<div class="share_wrap">
 							<ul>
 								<li>
-									<a href="https://www.facebook.com/profile.php?id=61555377376871" target="_blank">
-										<img src="<?php echo esc_url(get_template_directory_uri()); ?>//assets/img/headicons/fb-logo.png" alt="" style="vertical-align: top;">
-									</a>
-								</li>
-								<li>
-									<a href="https://www.linkedin.com/company/precision-cutting-technologies/" target="_blank">
+									<a href="https://www.linkedin.com/company/the-dahlonega-group/mycompany/" target="_blank">
 										<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/headicons/linkedin-logo.png" target="_blank" alt="" style="vertical-align: top;">
 									</a>
 								</li>
@@ -172,14 +167,15 @@
 									<h3>Washington Headquarters</h3>
 									<p>1611 N Molter Rd Ste. 102, Liberty Lake, WA 99019</p>
 									<p>Phone: (509) 922-8755</p>
-									<p><span>Email:</span><a href="mailto:sales@pctmfg.com">sales@pctmfg.com</a></p>
+									<p><span>Email:</span><a href="mailto:clientrelations@dahlonegagroup.com">clientrelations@dahlonegagroup.com</a></p>
+									<p><span>Email:</span><a href="mailto:info@dahlonegagroup.com">info@dahlonegagroup.com</a></p>
 								</div>
 							</div>
 						</div>
 						<div class="drop_list message">
 							<div class="short_contact">
 								<h3 class="title">Request a Quote</h3>
-								<p class="subtitle">PCT is committed to providing the highest level of customer service. Please complete the following form and click the “Send Message” button. We look forward to assisting you</p>
+								<p class="subtitle">Dahlonega is committed to providing the highest level of customer service. Please complete the following form and click the “Send Message” button. We look forward to assisting you</p>
 								<div class="inputs_wrap">
 									<?php echo do_shortcode('[contact-form-7 id="112" title="Request Form"]'); ?>
 								</div>
