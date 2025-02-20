@@ -76,7 +76,7 @@
 							<a href="<?php echo home_url('/contact-us'); ?>">Contact Us</a>
 						</div>
 						<div class="logo_wrap">
-							<img src="https://dahlonegagroup.com/wp-content/themes/dahlonegah%20theme/images/DG-Logo_Bear-Only-300x300.png" alt="" />
+							<img src="http://dahlonegagroup.jitudevops.com/wp-content/uploads/2025/02/DG-Logo_Bear-Only-300x300-1.png" alt="" />
 							<span class="left"></span>
 							<span class="right"></span>
 							<span class="extra_first"></span>
@@ -114,7 +114,7 @@
 						<div class="inner_wrap">
 							<div class="logo_wrap">
 								<a href="<?php echo site_url(); ?>">
-									<img class="mobi-logo" src="https://dahlonegagroup.com/wp-content/themes/dahlonegah%20theme/images/DG-Logo_Bear-Only-300x300.png" alt="" />
+									<img class="mobi-logo" src="http://dahlonegagroup.jitudevops.com/wp-content/uploads/2025/02/DG-Logo_Bear-Only-300x300-1.png" alt="" />
 								</a>
 							</div>
 							<div class="trigger_wrap">
