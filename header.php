@@ -149,9 +149,6 @@
 							<li class="message" data-style="message">
 								<a href="#"><img class="svg" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/svg/message2.svg" alt="" /></a>
 							</li>
-							<li class="phone" data-style="phone">
-								<a href="#"><img class="svg" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/svg/old_phone.svg" alt="" /></a>
-							</li>
 							<li class="clock" data-style="clock">
 								<a href="#"><img class="svg" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/svg/clock.svg" alt="" /></a>
 							</li>
@@ -164,9 +161,8 @@
 								<div class="office_image">
 								</div>
 								<div class="definitions_wrap">
-									<h3>Washington Headquarters</h3>
-									<p>1611 N Molter Rd Ste. 102, Liberty Lake, WA 99019</p>
-									<p>Phone: (509) 922-8755</p>
+									<h3>Atlanta Headquater</h3>
+									<p>Based in the Atlanta, GA area with a satellite office in Seattle, WA.</p>
 									<p><span>Email:</span><a href="mailto:clientrelations@dahlonegagroup.com">clientrelations@dahlonegagroup.com</a></p>
 									<p><span>Email:</span><a href="mailto:info@dahlonegagroup.com">info@dahlonegagroup.com</a></p>
 								</div>
