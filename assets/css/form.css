@@ -1,0 +1,49 @@
+.wpcf7-submit {
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    color: #fff;
+    background-color: #45a2df !important;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-weight: 500;
+    font-family: 'Open Sans';
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 30%;
+
+}
+
+.wpcf7-textarea {
+    background-color: white !important;
+}
+
+@media (min-width: 375px) {
+    .wpcf7-form {
+        padding: 10px;
+        display: grid;
+        gap: 22px;
+
+    }
+}
+
+.wpcf7-form-control-wrap input {
+    width: 100%;
+
+}
+
+.wpcf7-form {
+    display: grid;
+    gap: 22px;
+
+}
+
+.wpc7-form:hover {
+    backround-color: #23387E !important;
+}

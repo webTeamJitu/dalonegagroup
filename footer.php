@@ -29,6 +29,7 @@
                     <h4>CONTACT DETAILS</h4>
                     <p>To partner with The Dahlonega Group, contact us today.</p>
                     <!--<p class="contact_info"><i class="icon icon-pin-map"></i> Oxford Street, London, UK, N1 1ED</p>-->
+                    <p class="contact_info"><i class="icon icon-email-envelope"></i> <a href="mailto:info@dahlonegagroup.com">info@dahlonegagroup.com</a></p>
                     <p class="contact_info"><i class="icon icon-email-envelope"></i> <a href="mailto:clientrelations@dahlonegagroup.com">clientrelations@dahlonegagroup.com</a></p>
                     <!--<p class="contact_info"><i class="icon icon-call-phone"></i> +44 987 654 321</p>-->
                 </div>
