@@ -56,8 +56,8 @@ get_header();
             <div class="row">
             
                 <!--begin col-md-12-->
+                <p class="section-subtitle text-left">The Dahlonega Group is a relationship-driven investment firm that purchases and operates lower middle-market businesses with inherent value and untapped potential. Our transaction types focus on privately owned businesses and corporate divestitures with an EBITDA range of $1M to $25M. We focus on a wide variety of verticals as we evaluate businesses around the globe.</p>
                 <div class="col-md-12 text-center margin-bottom-20">                    
-                    <p class="section-subtitle text-left">The Dahlonega Group is a relationship-driven investment firm that purchases and operates lower middle-market businesses with inherent value and untapped potential. Our transaction types focus on privately owned businesses and corporate divestitures with an EBITDA range of $1M to $25M. We focus on a wide variety of verticals as we evaluate businesses around the globe.</p>
                     <p class="section-subtitle">We Are: </p>
                     <ul class="dolist text-left">
                         <li>Carve-out experts who have successfully executed multiple complex separations from Fortune 100 companies</li>
@@ -73,41 +73,6 @@ get_header();
             </div>
 
             <!--end row-->
-                
-
-            
-
-
-            <!--begin row-->
-            
-            <!--end row-->
-
-            <!--Modal start-->
-            
-            <!--Modal One-->
-
-            <!--Modal start-->
-            
-            <!--Modal two-->
-
-            <!--Modal start-->
-            
-            <!--Modal Three-->
-
-            <!--Modal start-->
-            
-            <!--Modal Four-->
-
-
-            <!--Modal start-->
-            
-            <!--Modal Six-->
-
-            <!--Modal start-->
-            
-            <!--Modal Seven-->
-
-            <!--Modal End-->
         </div>
         <!--end container-->
         
