@@ -56,7 +56,7 @@ get_header();
 
         <div class="glax_tm_main_contact_wrap">
             <div class="office_list">
-                <ul>
+                <ul class = "list_style_none">
                     <li>
                         <div class="inner">
                             <div class="image_wrap" style="border: solid #23387f;height: 220px;">
