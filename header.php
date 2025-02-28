@@ -31,7 +31,7 @@
 				<div class="inner_wrap">
 					<div class="left_part_wrap">
 						<div class="share_wrap">
-							<ul>
+							<ul class="list_style_none">
 								<li>
 									<a href="https://www.linkedin.com/company/the-dahlonega-group/mycompany/" target="_blank">
 										<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/headicons/linkedin-logo.png" target="_blank" alt="" style="vertical-align: top;">
@@ -41,15 +41,12 @@
 						</div>
 					</div>
 					<div class="right_part_wrap">
-						<ul>
+						<ul class="list_style_none">
 							<li data-style="home">
 								<a href="#"><img class="svg" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/svg/home.svg" alt="" /></a>
 							</li>
 							<li data-style="message">
 								<a href="#"><img class="svg" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/svg/message2.svg" alt="" /></a>
-							</li>
-							<li data-style="phone">
-								<a href="#"><img class="svg" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/svg/old_phone.svg" alt="" /></a>
 							</li>
 							<li data-style="clock">
 								<a href="#"><img class="svg" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/svg/clock.svg" alt="" /></a>
@@ -66,7 +63,7 @@
 				<div class="container">
 					<div class="header_inner_wrap">
 						<div class="menu_wrap">
-							<ul>
+							<ul class="list_style_none">
 								<li><a href="<?php echo home_url(); ?>">Home</a></li>
 								<li><a href="<?php echo home_url('/what-we-do'); ?>">What We Do</a></li>
 								<li><a href="<?php echo home_url('/our-team'); ?>">Our Team</a></li>
@@ -93,7 +90,7 @@
 					<div class="container">
 						<div class="inner_wrap">
 							<div class="mobile_socials_wrap">
-								<ul>
+								<ul class="list_style_none">
 									<li>
 										<a href="https://www.facebook.com/profile.php?id=61555377376871" target="_blank">
 											<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/headicons/fb-logo.png" alt="" style="vertical-align: top;">
@@ -133,6 +130,7 @@
 						<li><a href="<?php echo home_url(); ?>">Home</a></li>
 						<li><a href="<?php echo home_url('/what-we-do'); ?>">What We Do</a></li>
 						<li><a href="<?php echo home_url('/our-team'); ?>">Our Team</a></li>
+						<li><a href="<?php echo home_url('/contact-us'); ?>">Contact Us</a></li>
 					</ul>
 				</div>
 				<!-- /MENU LIST -->
@@ -173,17 +171,8 @@
 								<h3 class="title">Request a Quote</h3>
 								<p class="subtitle">Dahlonega is committed to providing the highest level of customer service. Please complete the following form and click the “Send Message” button. We look forward to assisting you</p>
 								<div class="inputs_wrap">
-									<?php echo do_shortcode('[contact-form-7 id="112" title="Request Form"]'); ?>
+									<?php echo do_shortcode('[contact-form-7 id="132" title="Request Form"]'); ?>
 								</div>
-							</div>
-						</div>
-						<div class="drop_list phone">
-							<div class="call_wrap">
-								<div class="image">
-									<img src="img/estimate/call.png" alt="" />
-								</div>
-								<h3>Call Us</h3>
-								<p>(509) 922-8755</p>
 							</div>
 						</div>
 						<div class="drop_list clock">
@@ -191,7 +180,7 @@
 								<h3>Working Hours</h3>
 								<p class="subtitle">We are happy to meet you during our working hours. Please make an appointment.</p>
 								<div class="hour_list">
-									<ul>
+									<ul class="list_style_none" class="list_style_none">
 										<li>
 											<span class="left">Monday-Friday:</span>
 											<span class="right">7am to 3:00pm</span>

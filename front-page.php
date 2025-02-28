@@ -98,7 +98,6 @@ get_header();
             <div class="col-sm-3 margin-bottom-10">
                 <div class="service-wrapper2">
                     <div class="ico-wrap2 icon-me">
-                        <!--<i class="flaticon-networking-2 ico-unicolor2"></i>-->
                         <img src="<?php bloginfo('template_directory'); ?>/images/geography.png">
                     </div>
                     <h3 style="color: #007adf !important;">Geography</h3>
@@ -114,7 +113,6 @@ get_header();
                     <div class="ico-wrap2 icon-me">
                         <img src="<?php bloginfo('template_directory'); ?>/images/vertical.png">
                     </div>
-                    <span class="service-nb">04</span>
                     <h3 style="color: #007adf !important;">Vertical</h3>
                     <p>
                         We focus on a wide variety of verticals as we evaluate businesses around the globe to include technology, software, logistics, and manufacturing
@@ -152,7 +150,6 @@ get_header();
                         <h3>Manufacturing & Industrial Services</h3>
                     </div>
                     <ul class="service-features">
-                        <!--<li class="margin-bottom-10">Engineering & Construction</li>-->
                         <li><i class="fa fa-check"></i>Engineering & Construction</li>
                         <li><i class="fa fa-check"></i>Residential Construction Trades</li>
                         <li><i class="fa fa-check"></i>Equipment Manufacturing</li>
@@ -222,7 +219,6 @@ get_header();
                 <div class="about-inner">
                     <div class="about-wrapper">
                         <div class="about-nb">
-                            <h3>01</h3>
                         </div>
                         <div class="about-text">
                             <p class="blue-feature">Our Ethos</p>
@@ -237,7 +233,6 @@ get_header();
                     </div>
                     <div class="about-wrapper">
                         <div class="about-nb">
-                            <h3>02</h3>
                         </div>
                         <div class="about-text">
                             <p class="blue-feature">Your Path</p>
@@ -248,7 +243,6 @@ get_header();
                     </div>
                     <div class="about-wrapper">
                         <div class="about-nb">
-                            <h3>03</h3>
                         </div>
                         <div class="about-text">
                             <p class="blue-feature">Clear Outcomes</p>

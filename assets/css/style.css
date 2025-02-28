@@ -5703,7 +5703,7 @@ iframe{
 	.glax_tm_topbar_wrap{display: none;}
 	.glax_tm_header_wrap{display: none;}
 	.glax_tm_wrapper_all{padding: 0px;}
-	.glax_tm_mobile_bar_wrap{display: block;}
+	.glax_tm_mobile_bar_wrap{display: block; position:inherit; z-index:999;}
 	.glax_tm_hero_header_wrap .swiper_content .texts_wrap h3{font-size: 36px;}
 	.glax_tm_home_service_list ul li{width: 50%;}
 	.glax_tm_home_service_list ul li:nth-child(2n) .inner_list:before{display: none;}

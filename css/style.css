@@ -1172,9 +1172,8 @@ ul.header_social li a.skype i:hover {
 	background: url('../images/breadcrump-bg.jpg') no-repeat top center;
 	width: 100%;
 	background-size: cover;
-	position: relative;
 	margin: 0 auto;
-	padding: 10% 0 5% 0;
+	padding: 15% 0 5% 0;
 }
 .breadcrumb-wrapper-overlay {
 	opacity: 0.60;
@@ -1186,7 +1185,7 @@ ul.header_social li a.skype i:hover {
 }
 h2.page-title {
 	font-family: 'Roboto', sans-serif;
-	font-size: 50px;
+	font-size: 58px;
 	font-weight: 700;
 	margin: 10px 0 10px 0;
 }
@@ -1204,7 +1203,6 @@ ol.breadcrumb li a:hover {
 .service-box {
 	margin: 20px 5px;
 	border-radius: 5px;
-	cursor: pointer;
 	transition: all 0.6s ease-in-out;
 	-webkit-transition: all 0.6s ease-in-out;
 }
@@ -1213,7 +1211,6 @@ ol.breadcrumb li a:hover {
 	padding: 25px 25px 25px 25px;
 	margin-bottom: 20px;
 	display: block;
-	cursor: pointer;
 	transition: all 0.6s ease-in-out;
 	-webkit-transition: all 0.6s ease-in-out;
 }
