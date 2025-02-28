@@ -2443,7 +2443,7 @@ textarea.contact-commnent-about {
 }
 input.contact-submit {
 	color: #fff;
-	border: 2px solid #007adf;
+	border: none;
 	background-color: #007adf;
 	cursor: pointer;
 	font-size: 14px;
@@ -2462,7 +2462,7 @@ input.contact-submit {
 input.contact-submit:hover {
 	color: #007adf;
 	background-color: transparent;
-	border: 2px solid #007adf;
+	/* border: 2px solid #007adf; */
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
