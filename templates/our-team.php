@@ -405,34 +405,7 @@ get_header();
                     </li>
                     <!--end team-item -->
 
-                    <!--begin team-item -->
-                    <li class="col-md-4 col-sm-4 col-xs-12 team-item-white">
-
-                        <figure class="portfolio-item">
-                            <div class="service-wrapperr" data-toggle="modal" data-target=".bd-anissa-modal-lg" id="openModalBtn" value="Open Modal">
-                                <div class="team-img2-over">
-
-                                    <img src="<?php bloginfo('template_directory'); ?>/images/Anisa.png" class="team-img-sm" alt="pic">
-                                    <div class="overlay">
-                                        <div class="text">Read More</div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <h3>ANISSA CAPPS</h3>
-
-                            <div class="team-info-white">
-                                <p>Marketing & Sales Manager</p>
-                            </div>
-                            <a href="https://www.linkedin.com/in/anissa-capps/" target=”_blank”>
-                                <i class="icon icon-linkedin linksin"></i>
-                            </a>
-
-                        </figure>
-
-                    </li>
-                    <!--end team-item -->
+                   
 
                 </ul>
                 <!--begin sorting-items-->
@@ -717,44 +690,7 @@ get_header();
             <!--Modal End-->
 
             <!--Modal start-->
-            <div class="modal fade bd-anissa-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered" id="openModal7" data-modalorder=7>
-                    <div class="modal-content col-md-12">
-                        <div class="col-md-4 blue">
-
-                            <img src="<?php bloginfo('template_directory'); ?>/images/Anisa.png" class="width-100 padding-bottom-20 padding-top-20" alt="pic">
-
-                            <h4 class="white titls">ANISSA CAPPS</h4>
-                            <div class="team-info-whites">
-                                <p>Marketing & Sales Manager</p>
-                            </div>
-
-                            <ul class="team-ed">
-                                <li class="bold white">Education</li>
-                                <li class="white">Ms. Capps attended Central Washington University.</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-md-8 padding-bottom-20">
-
-                            <div class="close-btns">
-                                <p class="bold padding-top-10">Experience</p>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-
-                            <p>
-                                Ms. Capps joined The Dahlonega Group in June 2023 as the Marketing & Sales Manager. In this role, Ms. Capps manages social media, organizes key industry events, and creates digital and physical marketing campaigns and content.
-
-                            <p>
-                                Prior to joining The Dahlonega Group, Ms. Capps attended Central Washington University to obtain a Master’s Degree in Business Administration, specializing in Marketing and Management as well as a Minor in Digital Marketing. To put herself through college, Ms. Capps was the general manager and marketing manager at River Canyon Espresso & Eatery.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <!--Modal NINE-->
 
             <!--Modal End-->
