@@ -66,7 +66,7 @@ get_header();
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <img src="http://dahlonegagroup.jitudevops.com/wp-content/uploads/2025/02/TDGLogoWhite.png" class="navbar-brand brand scrool">
+                    <img src="http://dahlonegagroup.jitudevops.com/wp-content/uploads/2025/03/TDGLogoWhite.png" class="navbar-brand brand scrool">
                 </div>
                 <!-- end navbar-header -->
 
