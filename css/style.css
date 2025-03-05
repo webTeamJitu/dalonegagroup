@@ -57,7 +57,7 @@ Version: 1.0
 	background-image: url("../images/Picture1.jpg");
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
-	min-height: 69em;
+	min-height: 76em;
 }
 .icon-me {
 	padding-bottom: 80px !important;
@@ -1610,7 +1610,7 @@ ul.list-categories li a:hover {
 /* 						   06. NEWSLETTER                     */
 /* ========================================================== */
 .newsletter_info {
-	min-height: 275px;
+	min-height: 310px;
 	width: 90%;
 	padding: 30px 40px;
 	background-color: rgba(255, 255, 255, 0.88);
