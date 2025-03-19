@@ -44,7 +44,7 @@
                     <div class="col-md-5">
                         <!--begin copyright -->
                         <div class="copyright ">
-                            <p>© 2021 Dahlonega Group</p>
+                            <p>© <?php echo date('Y'); ?> Dahlonega Group</p>
                         </div>
                         <!--end copyright -->
                     </div>
