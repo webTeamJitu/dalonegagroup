@@ -459,6 +459,9 @@ get_header();
                             </p>
 
                         </div>
+                        <div class="col-md-12 text-center padding-bottom-20">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -500,6 +503,9 @@ get_header();
                                 Before his time at THH, he was Vice President of Sales at EcoDigital, a global software platform focused on the media & entertainment industry, where he was an integral role on creating a standalone entity during the divestiture from Oracle and driving revenue and growth across North and South America. He launched multiple sales management processes and CRM tools for the company, oversaw and grew the Americas sales division, expanded strategic partnership relationships, and drove revenue results surpassing goals.
                             </p>
 
+                        </div>
+                        <div class="col-md-12 text-center padding-bottom-20">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -546,6 +552,10 @@ get_header();
                                 Prior to his role at EcoDigital, Mr. Nicholson was CFO of Arkive and led the complex international divestiture from Iron Mountain. He led Arkive across all functional areas starting with the transition and development of all back-office functions moving to an independent company. Arkive completed multiple add on acquisitions and developed proprietary products that doubled the value of the company. Mr. Nicholson oversaw the successful exit to Berkshire Partner’s Access Information Management.
                             </p>
                         </div>
+
+                        <div class="col-md-12 text-center padding-bottom-20">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -589,6 +599,10 @@ get_header();
                                 Mr. Marshall served in the United States Marine Corps’ active and reserve components for 14 years. His service included operational tours to Afghanistan and humanitarian assistance / disaster relief in the Pacific.
                             </p>
 
+                        </div>
+
+                        <div class="col-md-12 text-center padding-bottom-20">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -638,6 +652,9 @@ get_header();
                                 Prior to his time at Front Porch Digital, Oracle, and EcoDigital, Mr. Alves was a Video Director for multiple teams within the NFL and NCAA. Additionally, Mr. Alves served as the NFL Video Director for Super Bowl XXXII in San Diego and has served on different NFL and NCAA Video Directors boards and programs. He is currently a high school football official in the state of Colorado, a role he has enjoyed for 20 years.
                             </p>
                         </div>
+                        <div class="col-md-12 text-center padding-bottom-20">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -681,6 +698,10 @@ get_header();
                             <p>
                                 Mr. Johnson holds a degree in Building Technology from New Castle School of Trade. He brings over a decade of knowledge in the construction industry to The Dahlonega Group. Known for his unwavering commitment to project timelines and quality, Mr. Johnson continues to contribute to the industry's advancement, leveraging his extensive experience and dynamic leadership skills. He focuses his off time with family and youth counseling.
                             </p>
+                        </div>
+                        
+                        <div class="col-md-12 text-center padding-bottom-20">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>

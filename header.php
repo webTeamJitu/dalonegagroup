@@ -92,11 +92,6 @@
 							<div class="mobile_socials_wrap">
 								<ul class="list_style_none">
 									<li>
-										<a href="https://www.facebook.com/profile.php?id=61555377376871" target="_blank">
-											<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/headicons/fb-logo.png" alt="" style="vertical-align: top;">
-										</a>
-									</li>
-									<li>
 										<a href="https://www.linkedin.com/company/precision-cutting-technologies/" target="_blank">
 											<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/headicons/linkedin-logo.png" alt="" style="vertical-align: top;">
 										</a>
